@@ -2,7 +2,9 @@
 	"name": "eventatarian",
 	"version": "0.0.0-dev.0",
 	"description": "decorators for events on web components",
-	"main": "dist/index.js",
+	"type": "module",
+	"main": "dist/decorators.js",
+	"module": "dist/decorators.js",
 	"scripts": {
 		"prepare": "run-s clean && run-p compile importmap",
 		"clean": "rimraf dist && mkdirp dist",
